@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+/* Section Padding */
+.sectionPadding {
+    padding: 60px 20px;
+    margin-top: 80px;
+    position: relative;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Projects Section with Background Image */
+.backgroundImg {
+    background-image: url('./project.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    height: 400px;
+}
+
+.projectCardContainer {
+    position: relative;
+    margin-top: 60px;
+    height: 250px;
+}
+
+/* Project Cards */
+.projectCard {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+}
+
+.projectCard:first-child {
+    left: 5%;
+}
+
+.projectCard:last-child {
+    right: 5%;
+}
+
+.projectCard h3 {
+    margin-bottom: 10px;
+}
+
+.projectCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+.skillsList li {
+    display: inline-block;
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.skillsList li:hover {
+    background-color: #2a9d8f;
+}
+
+.skillsList li:active {
+    background-color: #e76f51;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 !important;
+}
+
+/* Positioning and Layout */
+#projects {
+    position: relative;
+    height: 500px;
+}
